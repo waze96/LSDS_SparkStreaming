@@ -1,6 +1,6 @@
 # BENCHMARKS 
 
-## GitHub Repo:
+## GitHub Repo: https://github.com/waze96/LSDS_SparkStreaming
 
 #### NOTES:
 Commands to run the applications:
@@ -27,4 +27,4 @@ Commands to run the applications:
 
 ###### TwitterHashtagsReader
 
-./spark-submit --class upf.edu.TwitterHashtagsReader --conf spark.driver.extraJavaOptions=-Dlog4j.configuration=file:///home/waze/eclipse-workspace/lab3/src/main/resources/log4j.properties lab3-1.0-SNAPSHOT-fat.jar 
+./spark-submit --class upf.edu.TwitterHashtagsReader --conf spark.driver.extraJavaOptions=-Dlog4j.configuration=file:///home/waze/eclipse-workspace/lab3/src/main/resources/log4j.properties lab3-1.0-SNAPSHOT-fat.jar es
